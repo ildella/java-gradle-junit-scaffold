@@ -22,6 +22,7 @@ public class CalculatorJUnit5Test {
     @Test
     public void testSomething() {
         JavaSomething javaSomething = new JavaSomething();
-        assertEquals("did it", javaSomething.doSomething());
-    }   
+        assertEquals("I did it", javaSomething.doSomething());
+    }
+
 }

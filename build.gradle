@@ -14,6 +14,9 @@ application {
   mainClass='JavaExample'
 }
 
+// compileJava.options.fork = true
+// compileJava.options.forkOptions.executable = '~/.sdkman/candidates/java/8.0.302-open/bin/javac'
+
 test {
   // Discover and execute JUnit4-based tests
   // useJUnit()
